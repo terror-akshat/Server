@@ -8,7 +8,7 @@ const server = http.createServer(app);
 
 const io = socketIo(server, {
     cors: {
-        origin: "http://localhost:3000",
+        origin: "https://funny-trifle-39cd51.netlify.app",
         methods: ["GET", "POST"],
     },
 });
