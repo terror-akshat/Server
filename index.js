@@ -8,7 +8,7 @@ const server = http.createServer(app);
 
 const io = socketIo(server, {
     cors: {
-        origin: "https://charming-chebakia-38d373.netlify.app/",
+        origin: "https://charming-chebakia-38d373.netlify.app",
         methods: ["GET", "POST"],
     },
 });
